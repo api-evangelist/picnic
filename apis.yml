@@ -1,19 +1,48 @@
 aid: picnic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/picnic.png
 name: Picnic
-description: Picnic is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Picnic is a London-based, privacy-first photo-organization app for iOS that
+  helps people declutter and organize their camera roll through a swipe-based,
+  gamified experience — sorting photos into albums, comparing and removing
+  duplicate shots, building streaks, and resurfacing "on this day" memories.
+  All processing happens on-device, so photos never leave the user's phone:
+  no cloud upload, no ads, and no tracking or selling of user data. Founded in
+  2019 and a certified B Corporation, Picnic grew to more than 1.5 million users
+  and roughly €4M ARR before being acquired by Paris-based mobile app publisher
+  MWM in April 2026. Picnic is a consumer mobile product and publishes no public
+  developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/picnic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
+x-acquired-by: MWM
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Photos
+- Photo Organization
+- Photo Management
+- Mobile App
+- iOS
+- Consumer
+- Privacy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://picnic.photos
+  url: https://www.picnic.photos
+- type: SignUp
+  url: https://apps.apple.com/app/picnic-photo-organiser/id6450713784
+- type: Support
+  url: mailto:support@picnic.ventures
+- type: TermsOfService
+  url: https://www.picnic.photos/terms
+- type: PrivacyPolicy
+  url: https://www.picnic.photos/privacy
+- type: DomainSecurity
+  url: security/picnic-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
